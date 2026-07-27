@@ -1,5 +1,5 @@
 [build]
-  command = "npm --prefix bboard-ui run build"
+  command = "npm --prefix contract run build && npm --prefix api run build && npm --prefix bboard-ui run build"
   publish = "bboard-ui/dist"
 
 [[redirects]]

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Container } from '@mui/material';
-import { MainLayout, Board, WalletConnect } from './components';
+import { MainLayout, Board, WalletConnect, CircuitCall } from './components';
 import { useDeployedBoardContext } from './hooks';
 import { type BoardDeployment } from './contexts';
 import { type Observable } from 'rxjs';
@@ -22,6 +22,10 @@ const App: React.FC = () => {
       <MainLayout>
         <Container maxWidth="lg">
           <WalletConnect />
+          <CircuitCall
+            contractAddress="020084f7b494665427ecff72bb4bf2b91cbfdcba3b6bd6539bfbc14b62dbb7ed"
+            isOccupied={false}
+          />
           {boardDeployments.map((boardDeployment, idx) => (
             <div data-testid={`board-${idx}`} key={`board-${idx}`}>
               <Board boardDeployment$={boardDeployment} />

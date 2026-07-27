@@ -6,9 +6,9 @@
 [https://midnight-level-2.netlify.app](https://midnight-level-2.netlify.app)
 
 ## Contract Address
-| Network  | Address                                                            |
-|----------|--------------------------------------------------------------------|
-| Preprod  | `020084f7b494665427ecff72bb4bf2b91cbfdcba3b6bd6539bfbc14b62dbb7edc507` |
+| Network  | Address                                                          |
+|----------|------------------------------------------------------------------|
+| Preprod  | `020084f7b494665427ecff72bb4bf2b91cbfdcba3b6bd6539bfbc14b62dbb7ed` |
 
 ## What This Does
 A privacy-focused decentralized application built on the **Midnight Network**. Users can post a message to a shared bulletin board and take down their own posted message. All state updates produce zero-knowledge proofs (ZKPs) locally in the browser via the Midnight.js SDK and Lace Wallet DApp connector API before submitting transactions on-chain.
