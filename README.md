@@ -1,5 +1,7 @@
 # Midnight Bulletin Board DApp — Level 2 (Waxing Crescent)
 
+[![CI](https://github.com/VishvaRaj382/midnight-level-2/actions/workflows/ci.yml/badge.svg)](https://github.com/VishvaRaj382/midnight-level-2/actions/workflows/ci.yml)
+
 > A privacy-preserving Bulletin Board dApp built on the Midnight network featuring zero-knowledge proofs and Lace wallet integration on Preprod testnet.
 
 ## Live Demo
