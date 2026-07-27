@@ -76,7 +76,7 @@ An on-chain observer can verify that only the legitimate creator of a message ca
    Open `http://127.0.0.1:8080` in your browser.
 
 ## Demo Video
-[Demo Video Link Placeholder]
+[Midnight Level 2 DApp Demo Video](https://drive.google.com/file/d/1xinlhY53wgaznRv8WHys-uQ9VsF2VTbm/view?usp=share_link)
 
 ## Submission Checklist
 - [x] Lace wallet connect and disconnect implemented (`WalletConnect.tsx`)
