@@ -1,0 +1,8 @@
+[build]
+  command = "npm --prefix bboard-ui run build"
+  publish = "bboard-ui/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
